@@ -1,0 +1,13 @@
+.container { overflow: auto; }
+table {
+  min-width: 600px;
+  width: 100%;
+}
+.mat-header-cell:not(:last-of-type) { padding-right: 4px; }
+.mat-row:hover { background-color: rgb(240, 240, 240); }
+.mat-column-name { min-width: 140px; }
+.mat-column-address { min-width: 200px; }
+.col-shelter-type {
+  width: 2rem;
+  word-break: break-all;
+}

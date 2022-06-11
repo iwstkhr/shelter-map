@@ -1,0 +1,14 @@
+<app-map-search
+  (onKeywordChanges)="onKeywordChanges($event)"
+  (onTileLayerChanges)="onTileLayerChanges($event)"
+></app-map-search>
+
+<div class="count-container">
+  <span>{{shelters?.length | number}} 件を表示中</span>
+</div>
+
+<div class="map-container">
+  <div id="map"></div>
+</div>
+
+<app-map-table [shelters]="shelters"></app-map-table>
