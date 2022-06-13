@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.keyword-container {
+  margin-right: 16px;
+  width: 300px;
+}
+@media screen and (max-width: 600px) {
+  .keyword-container { width: 100%; }
+}
+.mat-radio-button:not(:last-of-type) { margin-right: 16px; }

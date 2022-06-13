@@ -1,0 +1,18 @@
+.container { padding: 16px; }
+.header {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: x-large;
+  width: 100%;
+}
+.git-hub {
+  justify-self: right;
+  height: 48px;
+  width: 48px;
+}

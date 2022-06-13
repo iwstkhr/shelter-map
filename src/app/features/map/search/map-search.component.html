@@ -1,0 +1,16 @@
+<div [formGroup]="form" class="container">
+  <div class="keyword-container">
+    <mat-form-field class="app-width-100 mat-form-field-keyword">
+      <mat-label>キーワード</mat-label>
+      <input matInput formControlName="keyword" maxlength="40">
+      <mat-hint align="end">{{form.get('keyword')?.value.length}} / 40</mat-hint>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-radio-group formControlName="tile_layer">
+      <mat-radio-button value="osm">OpenStreetMap</mat-radio-button>
+      <mat-radio-button value="gia_photo">国土地理院 (写真)</mat-radio-button>
+    </mat-radio-group>
+  </div>
+</div>
