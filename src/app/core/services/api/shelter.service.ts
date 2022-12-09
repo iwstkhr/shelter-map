@@ -11,7 +11,7 @@ import { environment } from '@environments/environment';
 @Injectable({providedIn: 'root'})
 export class ShelterService implements ApiRequest<Shelter> {
 
-  readonly api = `${environment.url}/assets/csv/shelter_20220918.csv`;
+  readonly api = `${environment.url}/assets/csv/mergeFromCity.csv`;
 
   constructor(private apiService: ApiService) {}
 
