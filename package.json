@@ -5,10 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-gh": "npm run clean && ng build -c production --base-href \"https://iwstkhr.github.io/shelter-map/\" && mv dist docs",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "clean": "rm -rf dist && rm -rf docs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
