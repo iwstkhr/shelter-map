@@ -37,7 +37,7 @@
     "@react-router/dev": "8.2.0",
     "@secretlint/secretlint-rule-preset-recommend": "13.0.2",
     "@tailwindcss/vite": "4.3.3",
-    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/jest-dom": "^7.0.0",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
     "@types/leaflet": "1.9.21",
