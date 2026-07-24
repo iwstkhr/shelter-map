@@ -33,7 +33,7 @@
     "react-router": "8.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.4",
+    "@biomejs/biome": "2.5.5",
     "@react-router/dev": "8.2.0",
     "@secretlint/secretlint-rule-preset-recommend": "13.0.2",
     "@tailwindcss/vite": "4.3.3",
